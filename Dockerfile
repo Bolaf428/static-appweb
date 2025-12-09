@@ -9,7 +9,7 @@ FROM nginx:alpine
 COPY index.html /usr/share/nginx/html/index.html
 
 # Expose port 80, which is the default port Nginx listens on
-EXPOSE 3000
+EXPOSE 9000
 
 # The CMD command is often omitted for official webserver images as they have a default command defined
 # but if needed, it would look something like this:
