@@ -13,4 +13,4 @@ EXPOSE 3000
 
 # The CMD command is often omitted for official webserver images as they have a default command defined
 # but if needed, it would look something like this:
-# CMD ["nginx", "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]
